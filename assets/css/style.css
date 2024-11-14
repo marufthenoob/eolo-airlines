@@ -1,0 +1,88 @@
+* {
+    font-family: "Dongle", sans-serif;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+/* login wrapper */
+.login-wrapper {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.text-blue {
+    color: #0D2E5F;
+}
+
+.ls-1 {
+    letter-spacing: 1px;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+.h-52 {
+    height: 52px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.custom-input {
+    border: 1px solid #003399;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.px-100 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.text-orange {
+    color: #EE650F;
+}
+
+.fs-21 {
+    font-size: 26px;
+}
+
+@media screen and (max-width: 1200px) {
+    .px-100 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .login-wrapper {
+        height: auto;
+        overflow: unset;
+    }
+
+    .mob-rev {
+        flex-direction: column-reverse;
+    }
+
+    img.img-fluid.h-screen.object-cover.w-100 {
+        height: 300px;
+        width: 100%;
+    }
+}
